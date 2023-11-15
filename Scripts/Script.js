@@ -1,1 +1,1 @@
-const Alerta = () => alert("esto es una alerta");
+export const Alerta = () => alert("esto es una alerta");
