@@ -22,8 +22,8 @@
     "eject": "react-scripts eject",
     "test:unit": "jest --watchAll=true",
     "test:unit:coverage": "npm run test:unit -- --watchAll=false --coverage",
-    "lint": "eslint ./src --ext .jsx,.js,.ts,.tsx --fix",
-    "prettier": "prettier --write \"src/**/*.{ts,tsx}\""
+    "lint": "eslint ./ --ext .jsx,.js,.ts,.tsx --fix",
+    "prettier": "prettier --write \"./**/*.{ts,tsx}\""
   },
   "browserslist": {
     "production": [
