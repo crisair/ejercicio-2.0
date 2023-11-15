@@ -23,7 +23,7 @@
     "test:unit": "jest --watchAll=true",
     "test:unit:coverage": "npm run test:unit -- --watchAll=false --coverage",
     "lint": "eslint ./ --ext .jsx,.js,.ts,.tsx --fix",
-    "prettier": "prettier --write \"./**/*.{ts,tsx}\""
+    "prettier": "prettier --write"
   },
   "browserslist": {
     "production": [
